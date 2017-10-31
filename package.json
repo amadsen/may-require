@@ -1,0 +1,37 @@
+{
+  "name": "may-require",
+  "version": "1.0.0",
+  "description": "Cleanly try requiring optional dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test/*-test.js"
+  },
+  "keywords": [
+    "try",
+    "require",
+    "optional",
+    "dependencies"
+  ],
+  "author": "Aaron Madsen <amadsen@codifiant.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^11.2.1",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "calling-file": "^1.0.0",
+    "resolve-from": "^4.0.0",
+    "trike": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadsen/may-require.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amadsen/may-require/issues"
+  },
+  "homepage": "https://github.com/amadsen/may-require#readme"
+}
